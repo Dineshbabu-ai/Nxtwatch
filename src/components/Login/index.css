@@ -1,0 +1,84 @@
+.bg-container {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-login-container {
+  padding: 20px;
+}
+
+.card-align {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.nxtwatch-logo-containeR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nxtwatch-logo {
+  width: 120px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.username-input-styling {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-color: #f1f5f9;
+  border-radius: 5px;
+}
+.username-label-styling {
+  font-weight: bold;
+  color: #7e858e;
+  font-size: 14px;
+}
+
+.password-input-styling {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-color: #f1f5f9;
+  border-radius: 5px;
+}
+.password-label-styling {
+  font-weight: bold;
+  color: #7e858e;
+  font-size: 14px;
+}
+.login-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+.show-password-container {
+  margin-top: 10px;
+}
+.show-password-checkbox-input {
+  width: 15px;
+  height: 15px;
+}
+.show-password-checkbox-label {
+  font-weight: 500;
+  color: #606060;
+}
+.login-button {
+  background-color: #3b82f6;
+  color: white;
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0px;
+}
