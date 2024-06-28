@@ -1,4 +1,5 @@
 import './index.css'
+<<<<<<< HEAD
 import {Component} from 'react'
 import {MdCancel} from 'react-icons/md'
 import {FaSearch} from 'react-icons/fa'
@@ -177,5 +178,9 @@ class Home extends Component {
     )
   }
 }
+=======
+
+const Home = () => <h1>dinesh</h1>
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
 
 export default Home

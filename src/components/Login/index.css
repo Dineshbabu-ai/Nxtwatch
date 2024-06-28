@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+.bg-container {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
 .card-login-container {
   padding: 20px;
 }
@@ -50,6 +63,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 20px;
 }
+<<<<<<< HEAD
 
 @media screen and (min-width: 768px) {
   .login-card {
@@ -58,6 +72,8 @@
     width: 30%;
   }
 }
+=======
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
 .show-password-container {
   margin-top: 10px;
 }
@@ -71,7 +87,11 @@
 }
 .login-button {
   background-color: #3b82f6;
+<<<<<<< HEAD
   color: #ffffff;
+=======
+  color: white;
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
   margin-top: 30px;
   width: 100%;
   height: 40px;
@@ -80,7 +100,10 @@
   border-style: solid;
   border-width: 0px;
 }
+<<<<<<< HEAD
 
 .errorMessage {
   color: red;
 }
+=======
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457

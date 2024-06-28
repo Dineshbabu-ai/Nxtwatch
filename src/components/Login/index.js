@@ -1,11 +1,15 @@
 import {Component} from 'react'
+<<<<<<< HEAD
 import {Redirect} from 'react-router-dom'
 import Cookies from 'js-cookie'
 import BgContainer from './styledComponents'
+=======
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
 
 import './index.css'
 
 class Login extends Component {
+<<<<<<< HEAD
   state = {
     username: '',
     password: '',
@@ -17,12 +21,21 @@ class Login extends Component {
 
   handleSuccess = jwtToken => {
     Cookies.set('jwt_token', jwtToken, {expires: 30})
+=======
+  state = {username: '', password: '', showErrorMsg: ''}
+
+  handleSuccess = jwtToken => {
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
     const {history} = this.props
     history.replace('/')
   }
 
   handleFailure = error => {
+<<<<<<< HEAD
     this.setState({showErrorMsg: error, isErrorMsg: true})
+=======
+    console.log(error)
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
   }
 
   onSubmitCredentials = async event => {
@@ -52,6 +65,7 @@ class Login extends Component {
     this.setState({password: event.target.value})
   }
 
+<<<<<<< HEAD
   handleShowPassword = () => {
     this.setState(prevState => ({showPassword: !prevState.showPassword}))
   }
@@ -64,13 +78,21 @@ class Login extends Component {
     const {showPassword, showErrorMsg, isErrorMsg} = this.state
     const inputType = showPassword ? 'text' : 'password'
 
+=======
+  cardNxtwatch = () => {
+    console.log('idneh')
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
     return (
       <div className="login-card">
         <div className="card-align">
           <div className="nxtwatch-logo-containeR">
             <img
               src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png"
+<<<<<<< HEAD
               alt="website logo"
+=======
+              alt=""
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
               className="nxtwatch-logo"
             />
           </div>
@@ -91,7 +113,11 @@ class Login extends Component {
               PASSWORD
             </label>
             <input
+<<<<<<< HEAD
               type={inputType}
+=======
+              type="password"
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
               placeholder="Password"
               id="password"
               className="password-input-styling"
@@ -102,7 +128,10 @@ class Login extends Component {
                 type="checkbox"
                 id="checkbox"
                 className="show-password-checkbox-input"
+<<<<<<< HEAD
                 onClick={this.handleShowPassword}
+=======
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
               />
               <label
                 htmlFor="checkbox"
@@ -111,11 +140,14 @@ class Login extends Component {
                 Show Password
               </label>
             </div>
+<<<<<<< HEAD
             {isErrorMsg ? (
               <p className="errorMessage">{showErrorMsg}</p>
             ) : (
               <p className="errorMessage">{showErrorMsg}</p>
             )}
+=======
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
             <button type="submit" className="login-button">
               Login
             </button>
@@ -126,9 +158,13 @@ class Login extends Component {
   }
 
   render() {
+<<<<<<< HEAD
     return (
       <BgContainer className="bg-container">{this.cardNxtwatch()}</BgContainer>
     )
+=======
+    return <div className="bg-container">{this.cardNxtwatch()}</div>
+>>>>>>> ddf958fd0a6a746d25c2015fa72763a65137f457
   }
 }
 
