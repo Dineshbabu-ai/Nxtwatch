@@ -1,0 +1,32 @@
+.nxtWatch-logo {
+  height: 35px;
+  width: 100px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.icon-contianer {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+  justify-content: space-around;
+}
+.moon-icon {
+  width: 30px;
+  height: 30px;
+}
+.menu-icon {
+  width: 30px;
+  height: 30px;
+}
+.logout-icon {
+  width: 30px;
+  height: 30px;
+}
